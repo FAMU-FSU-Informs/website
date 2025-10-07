@@ -1,0 +1,27 @@
+site_name: FAMU-FSU INFORMS Chapter
+nav:
+  - Home: index.md
+  - Blog: blog.md
+  - About: about.md
+  - Documents: documents.md
+  - Dev: dev.md
+
+plugins:
+  - glightbox
+  - blogging:
+      theme: 
+        name: card
+      features:
+          tags: {}
+      dirs: 
+        - blog
+
+      categories:
+        - name: meetings
+          dirs:
+            - blog/meetings
+        - name: news
+          dirs:
+            - blog/news
+
+theme: material
