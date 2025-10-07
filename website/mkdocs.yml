@@ -6,6 +6,8 @@ nav:
   - Documents: documents.md
   - Dev: dev.md
 
+site_url: https://famu-fsu-informs.github.io/website
+
 plugins:
   - glightbox
   - blogging:
